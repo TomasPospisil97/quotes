@@ -17,9 +17,10 @@ body {
 
 /*BUTTON*/
 #button {
-    margin: 50px auto; /*mozna pouze top 50px*/
-    height: 45px;
-    width: 225px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    height: 55px;
+    width: 260px;
     font-size: 16px;
     background-color: #e0e1e1;
     border-radius: 5px;
