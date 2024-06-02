@@ -1,0 +1,43 @@
+body {
+    background-color: rgba(124, 107, 139, 0.845);
+    margin-top: 100px;
+}
+
+/*CONTAINER*/
+#container {
+    background-color: antiquewhite;
+    border: 5px solid rgb(173, 176, 147);
+    height: 250px;
+    width: 700px;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+/*BUTTON*/
+#button {
+    margin: 50px auto; /*mozna pouze top 50px*/
+    height: 45px;
+    width: 225px;
+    font-size: 16px;
+    background-color: #e0e1e1;
+    border-radius: 5px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+#button:hover {
+    background-color: rgb(246, 246, 244);
+}
+  
+#button {
+    transition-property: background-color;
+    transition-duration: 1s;
+}
+
+/*OUTPUT*/
+#output {
+    margin: 25px auto;
+    color: black;
+    font-size: 16px;
+}
